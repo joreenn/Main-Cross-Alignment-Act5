@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
 
 import 'row_main.dart';
-import 'row_cross.dart';
-import 'column_main.dart';
 import 'column_cross.dart';
 
 void main() {
@@ -16,7 +14,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Montejo Activity 5',
+      title: 'montejo activity 5',
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
@@ -42,29 +40,15 @@ class _AlignmentPageState extends State<AlignmentPage> {
     RowMainSpaceEvenly(),
     RowMainStart(),
     RowMainEnd(),
-    RowCrossStart(),
-    RowCrossEnd(),
-    RowCrossBaseline(),
-    RowCrossCenter(),
-    RowCrossStretch(),
-    ColumnMainCenter(),
-    ColumnMainSpaceAround(),
-    ColumnMainSpaceBetween(),
-    ColumnMainSpaceEvenly(),
-    ColumnMainStart(),
-    ColumnMainEnd(),
     ColumnCrossStart(),
-    ColumnCrossEnd(),
-    ColumnCrossBaseline(),
     ColumnCrossCenter(),
-    ColumnCrossStretch(),
   ];
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Montejo Activity 5'),
+        title: const Text('montejo activity 5'),
         centerTitle: true,
         backgroundColor: Colors.teal,
         foregroundColor: Colors.black,

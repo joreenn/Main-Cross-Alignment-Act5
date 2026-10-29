@@ -1,15 +1,18 @@
 # Montejo Activity 5
 
-Row and Column alignment examples based on CCE106_LoginRegister.pptx and the Task 3 PDF reference.
+Eight examples matching Task3-Main_Cross_Alignment.pdf.
 
-Open this project folder in Android Studio and run lib/main.dart on an Android emulator.
-Use Previous and Next to see all 22 examples.
+1. Row: MainAxisAlignment.center
+2. Row: MainAxisAlignment.spaceAround
+3. Row: MainAxisAlignment.spaceBetween
+4. Row: MainAxisAlignment.spaceEvenly
+5. Row: MainAxisAlignment.start
+6. Row: MainAxisAlignment.end
+7. Column: CrossAxisAlignment.start
+8. Column: CrossAxisAlignment.center
 
-- row_main.dart: six MainAxisAlignment examples in Row.
-- row_cross.dart: five CrossAxisAlignment examples in Row.
-- column_main.dart: six MainAxisAlignment examples in Column.
-- column_cross.dart: five CrossAxisAlignment examples in Column.
+The examples use red, yellow, and blue 70 x 70 containers. The two Column examples align the group containing the label and stacked squares, as in the PDF reference.
 
-Each example uses red (90 x 90), yellow (80 x 80), and blue (70 x 70) containers like the PowerPoint. A fixed demonstration height leaves room to see the alignment. Baseline examples add text at different font sizes and set textBaseline. Flutter treats baseline alignment in a Column like start because text baselines are horizontal.
+Open this folder in Android Studio and run lib/main.dart. Use Previous and Next to switch examples. The app bar displays "montejo activity 5".
 
-Emulator screenshots are in screenshots/, numbered in the same order as the app.
+The eight emulator screenshots are in screenshots/. A ZIP copy is provided in screenshots.zip.
